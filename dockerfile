@@ -1,7 +1,6 @@
 FROM nginx:latest
 
 COPY index.html /usr/share/nginx/html
-#COPY FORTIA100.ico /usr/share/nginx/html
 #COPY mano.jpg /usr/share/nginx/html
 #COPY ImagenIndex.jpg /usr/share/nginx/html
 
