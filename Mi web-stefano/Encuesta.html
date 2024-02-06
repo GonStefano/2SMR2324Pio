@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Encuesta Fortia</title>
+        <link rel="stylesheet" href="Estilos/Fortia.css" type="text/css">
+        <style>
+                        header{
+            display: flex;
+            align-items: center;
+            width: 100%;
+            height: 15vh;
+            background-color: #00BCD4;
+            color: #FFFFFF;
+
+            }
+            header a img{
+                margin: 0 0 0 20vw;
+            }
+            header h1{
+                margin: 0 10vw 0 0;
+            }
+            nav a{
+                text-decoration: none;
+                padding: 1em 20px;
+                color: #FFFFFF;
+                font-size: larger;
+                font-weight: bold;
+            }
+            nav a:hover{
+                border: #FFFFFF solid 2px;
+                transition-duration: 0.3s;
+            }
+
+            section {
+                margin: 5% 20%;
+            }
+
+            #imagenindex{
+                width: 100%;
+                padding: 0;
+                margin: 0;
+            }
+            div{
+                display: flex;
+                justify-content: center;
+            }
+
+            #mano{
+                margin: 0;
+                width: 500px;
+                height: 500px;
+                border-radius: 50%;
+            }
+            iframe{
+                width: 100%;
+                height: 30em;
+            }
+
+            table{
+                width: 100%;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            .ta{
+                background-color: #0ed0ea;
+            }
+            .ti{
+                background-color: #0ed0ea;
+                text-align: left;
+            }
+            table td , table th{
+                border-bottom: 1px solid black;
+            }
+
+            .encuesta{
+                background-color: #0ed0ea;
+                text-decoration: none;
+                color: black;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: larger;
+                padding: 2vh 5vw;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                border-bottom-left-radius: 20px;
+                border-bottom-right-radius: 20px;
+            }
+            .encuesta:hover{
+                background-color: #29828e;
+                color: #FFFFFF;
+                transition-duration: 0.3s;
+            }
+            #sec{
+            margin: 5% 32%;
+            }
+
+            form{
+                display: grid;
+            }
+            #Edad{
+                width: 10em;
+            }
+            .pregunta{
+                font-size: medium;
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+            .respuesta{
+            width: 100%;
+            }
+            .botones{
+                width: 5em;
+            }
+            .des{
+                display: flex;
+                justify-content: left;
+            }
+            #electrodomésticos{
+            width: 30%;
+            }
+            #enviar{
+                padding: 1em 2em;
+                background-color: #1f6972;
+                color: white;
+            }
+
+            body{
+                margin: 0;
+                padding: 0;
+                background-color: #FFFFFF;
+                font-family: Arial, sans-serif;
+            }
+            h1{
+                color: #212121;
+                font-size: 40px;
+            }
+            h2{
+                color: #212121;
+                font-size: 30px;
+            }
+            p{
+                font-size: 18px;
+                color: #757575 ;
+                text-align: justify;
+            }
+            footer{
+                text-decoration: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #1f6972;
+                width: 100%;
+                padding: 2vh;
+            }
+            footer p{
+                color: white;
+            }
+            .d{
+                text-decoration: none;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <a href="index.html">
+                <img width="120hw" height="90hv" src="Graficos/FORTIA100.png">
+            </a>
+            <h1>Fortia</h1>
+            <nav>
+                <a  href="Trabaja con nosotros.html">Trabaja con nosotros</a>
+                <a  href="Servicios.html">Servicios</a>
+                <a  href="Contactanos.html">Contactanos</a>
+            </nav>
+        </header>
+        <section id="sec">
+            <article>
+                <h1>Encuesta a clientes</h1>
+                <form action="" method="post">
+
+                    <label class="pregunta" for="Edad">¿Que edad tienes?</label>
+                    <input type="number" id="Edad" name="Edad" required>
+
+                    <label class="pregunta" for="Satisfaccion">¿Cómo describirías tu nivel de satisfacción con los productos de Fortia?</label>
+                    <input class="respuesta" type="text" id="Satisfaccion" name="Satisfaccion">
+
+                    <label class="pregunta" for="Calificacion">¿Cómo calificarías tu experiencia general de compra con Fortia?</label>
+                    <input class="respuesta" type="text" id="Calificacion" name="Calificacion">
+
+                    <label class="pregunta" for="Problema">¿Hubo algún problema durante el proceso de compra que te gustaría destacar?</label>
+                    <input class="respuesta" type="text" name="Problema" id="Problema">
+
+                    <label class="pregunta" for="Recomendar">¿Eres propenso/a a recomendar los productos de Fortia a amigos y familiares?</label>
+                    <div class="des">
+                    <label class="botones" for="SI">SI</label>
+                    <input class="botones" type="checkbox" id="SI" name="Recomendar">
+                    </div>
+                    <div class="des">
+                    <label class="botones" for="NO">NO</label>
+                    <input class="botones" type="checkbox" id="NO" name="Recomendar">
+                    </div>
+                    <div class="des">
+                    <label class="botones" for="NULO">Nada</label>
+                    <input class="botones" type="checkbox" id="NULO" name="Recomendar">
+                    </div class="des">
+                    <label class="pregunta" for="Electrodomésticos">¿Que electrodomestico has comprado ultimamente?</label>
+                    <select  name="Electrodomésticos" id="electrodomésticos">
+                        <option value="1">Selecciona</option>
+                        <option value="2">Lavadora</option>
+                        <option value="3">Microondas</option>
+                        <option value="4">Televisor</option>
+                        <option value="5">Aire Acondicionado</option>
+                        <option value="6">Refrigerador</option>
+                        <option value="7">Calefactor</option>
+                        <option value="8">Ventilador</option>
+                    </select><br>
+                    <div>
+                        <input type="submit" value="enviar" id="enviar">
+                    </div>
+                </form>
+                <div>
+                    <h1>¡Muchas Gracias!</h1>
+                </div>
+            </article>
+        </section>
+    </body>
+</html>

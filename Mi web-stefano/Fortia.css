@@ -1,0 +1,154 @@
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: #00BCD4;
+    color: #FFFFFF;
+
+}
+header a img{
+    margin: 0 0 0 20vw;
+}
+header h1{
+    margin: 0 10vw 0 0;
+}
+nav a{
+    text-decoration: none;
+    padding: 1em 20px;
+    color: #FFFFFF;
+    font-size: larger;
+    font-weight: bold;
+}
+nav a:hover{
+    border: #FFFFFF solid 2px;
+    transition-duration: 0.3s;
+}
+
+section {
+    margin: 5% 20%;
+}
+
+#imagenindex{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+div{
+    display: flex;
+    justify-content: center;
+}
+
+#mano{
+    margin: 0;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+iframe{
+    width: 100%;
+    height: 30em;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.ta{
+    background-color: #0ed0ea;
+}
+.ti{
+    background-color: #0ed0ea;
+    text-align: left;
+}
+table td , table th{
+    border-bottom: 1px solid black;
+}
+
+.encuesta{
+    background-color: #0ed0ea;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    padding: 2vh 5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.encuesta:hover{
+    background-color: #29828e;
+    color: #FFFFFF;
+    transition-duration: 0.3s;
+}
+#sec{
+margin: 5% 32%;
+}
+
+form{
+    display: grid;
+}
+#Edad{
+    width: 10em;
+}
+.pregunta{
+    font-size: medium;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.respuesta{
+ width: 100%;
+}
+.botones{
+    width: 5em;
+}
+.des{
+    display: flex;
+    justify-content: left;
+}
+#electrodomésticos{
+width: 30%;
+}
+#enviar{
+    padding: 1em 2em;
+    background-color: #1f6972;
+    color: white;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    font-family: Arial, sans-serif;
+}
+h1{
+    color: #212121;
+    font-size: 40px;
+}
+h2{
+    color: #212121;
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+    color: #757575 ;
+    text-align: justify;
+}
+footer{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f6972;
+    width: 100%;
+    padding: 2vh;
+}
+footer p{
+    color: white;
+}
+.d{
+    text-decoration: none;
+    color: white;
+}
